@@ -1,0 +1,122 @@
+.car-parking-booking-page {
+    .right-section {
+        .section-container {
+            .circle {
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+            }
+
+            .red {
+                background-color: #FF0F4B;
+            }
+
+            .green {
+                background-color: #00BD35;
+            }
+
+            .orange {
+                background-color: #bd7100;
+            }
+        }
+
+        .orange-slots,
+        .green-slots,
+        .red-slots {
+            cursor: pointer;
+            display: flex;
+            width: 50px;
+            height: 50px;
+            padding: 10px; /* Adjusted padding */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 12px;
+            border: 1.5px solid; /* Use a variable for color */
+            font-weight: 600;
+            font-size: 10px;
+            margin-bottom: 0.5rem;
+            box-sizing: border-box; /* Include padding and border in total size */
+            transition: background-color 0.3s; /* Smooth transition for hover effects */
+        }
+
+        .orange-slots {
+            border-color: #bd6200;
+            background: #FFF;
+        }
+
+        .green-slots {
+            border-color: #00BD35;
+            background: #FFF;
+        }
+
+        .red-slots {
+            border-color: #FF0F4B;
+            background: #FFF;
+        }
+
+        .light-green-slots {
+            
+            background-color: #90ee90; /* Light green color */
+            color: white; /* Text color for better contrast */
+        }
+        .light-green-slots {
+            cursor: pointer;
+            display: flex;
+            width: 50px;
+            height: 50px;
+            padding: 10px; /* Adjusted padding */
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 12px;
+            border: 1.5px solid; /* Use a variable for color */
+            font-weight: 600;
+            font-size: 10px;
+            margin-bottom: 0.5rem;
+            background-color: #90ee90;
+            color: white;
+            box-sizing: border-box; /* Include padding and border in total size */
+        }
+
+        .stepper-container {
+            background-color: #f7f7f7; /* Light background for the stepper */
+            padding: 20px;
+            border-right: 1px solid #ddd; /* Optional border for separation */
+        }
+
+        .color-white-green {
+            color: #fff;
+            background: #00BD35;
+        }
+
+        .color-green-white {
+            color: #00BD35;
+            background: #FFF;
+        }
+
+        .color-orange-white {
+            color: #bd6200;
+            background: #FFF;
+        }
+
+        .color-red-white {
+            color: #FF0F4B;
+            background: #FFF;
+        }
+
+        .color-white-red {
+            color: #FFF;
+            background: #FF0F4B;
+        }
+
+        /* Hover effects */
+        .orange-slots:hover,
+        .green-slots:hover,
+        .red-slots:hover {
+            background-color: rgba(0, 0, 0, 0.1); /* Lighten background on hover */
+        }
+    }
+}

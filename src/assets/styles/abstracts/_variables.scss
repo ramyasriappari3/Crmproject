@@ -1,0 +1,53 @@
+
+
+$color-primary: #1480B7;
+$color-secondary: #0A2C3F;
+$color-background: #F3F6F7;
+
+// mixins
+@mixin respond($breakpoint) {
+    @if $breakpoint==phone-sm {
+        @media only screen and (max-width: 36em) {
+            @content;
+        }
+    }
+    @if $breakpoint==phone {
+        @media only screen and (max-width: 48.125em) {
+            @content;
+        }
+    }
+    @if $breakpoint==tab-port {
+        @media only screen and (max-width: 62em) {
+            @content;
+        }
+    }
+    @if $breakpoint==tab-land {
+        @media only screen and (max-width: 75em) {
+            @content;
+        }
+    }
+    @if $breakpoint==big-desktop {
+        @media only screen and (min-width: 112.5em) {
+            @content;
+        }
+    }
+}
+
+@mixin circle($width, $height) {
+    border-radius: 50%;
+    height: $height;
+    width: $width;
+}
+
+@mixin absCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.primary-border {
+    border: 1px solid rgba(59, 59, 59, 1);
+}
+.primary-background {
+    background-color: #ffffff;
+}

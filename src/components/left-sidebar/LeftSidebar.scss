@@ -1,0 +1,45 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.lft-sidebar {
+    width: 240px;
+    background-color: #fff;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 24px 16px 24px 16px;
+    position: fixed;
+    z-index: 1;
+
+    .logo-container {
+        width: 102.46px;
+        height: 54px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .tabs {
+        .tab {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            cursor: pointer;
+
+            .logo {}
+
+            .tab-name {
+                font-weight: 700;
+                font-size: 14px;
+            }
+        }
+
+        .tab.active {
+            background-color: #E6E7E9;
+            color: #3C4049;
+            border-radius: 8px;
+        }
+    }
+
+}

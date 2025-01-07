@@ -1,0 +1,35 @@
+@import "@Src/assets/styles/abstracts/variables";
+
+.help-pages {
+    .button_color {
+        background: #000 !important;
+        line-height: 2.75 !important;
+        width: 140px;
+        border-radius: 0 10px 10px 0;
+    }
+
+    .search_width {
+        width: 60%;
+
+        @include respond(phone) {
+            width: 100%;
+        }
+
+        background: #F3F6F7 !important;
+        border: none !important;
+
+        .SearchIcon {
+            margin-left: 8px;
+        }
+    }
+
+    .text_color {
+        color: #000;
+    }
+
+    .MuiBox-root {
+        @include respond(phone) {
+            padding: 0px;
+        }
+    }
+}

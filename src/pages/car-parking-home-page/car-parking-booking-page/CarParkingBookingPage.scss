@@ -1,0 +1,71 @@
+.car-parking-booking-page {
+    .right-section {
+        .section-container {
+            .circle {
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+            }
+
+            .red {
+                background-color: #FF0F4B;
+            }
+
+            .green {
+                background-color: #00BD35;
+            }
+        }
+
+        .green-slots {
+            cursor: pointer;
+            display: flex;
+            width: 50px;
+            height: 50px;
+            padding: 18px 13px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 12px;
+            border: 1.5px solid #00BD35;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .color-white-green {
+            color: #fff;
+            background: #00BD35;
+        }
+
+        .color-green-white {
+            color: #00BD35;
+            background: #FFF;
+        }
+
+        .red-slots {
+            display: flex;
+            width: 50px;
+            height: 50px;
+            padding: 18px 13px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            border-radius: 12px;
+            border: 1.5px solid #FF0F4B;
+            background: #FFF;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .color-red-white {
+            color: #FF0F4B;
+            background: #FFF;
+        }
+
+        .color-white-red {
+            color: #FFF;
+            background: #FF0F4B;
+        }
+    }
+}

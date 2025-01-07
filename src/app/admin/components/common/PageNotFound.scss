@@ -1,0 +1,39 @@
+/* src/NotFound.css */
+.ps-page--single {
+    text-align: center;
+    margin-top: 20%;
+  }
+  
+  .ps-page--404 .container {
+    text-align: center;
+  }
+  
+  .ps-section__content figure {
+    display: inline-block;
+  }
+  
+  .ps-section__content h3 {
+    font-size: 36px;
+    margin-top: 20px;
+  }
+  
+  .ps-section__content p {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .ps-section__content a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .ps-section__content a:hover {
+    background-color: #ff4500;
+  }
+  

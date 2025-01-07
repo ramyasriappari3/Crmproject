@@ -1,0 +1,160 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.page6-cont {
+  width: 100%;
+  color: black;
+  min-height: 100vh;
+  h3,
+  h4 {
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .rupee-alignment {
+    text-align: right !important;
+    vertical-align: top;
+  }
+
+  table {
+    width: 100%;
+    font-size: 0.8rem;
+    th {
+      background-color: #e2e7e9;
+    }
+    th,
+    td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+    }
+
+    .API-TEXT {
+      text-decoration: underline;
+    }
+
+    .sl-no {
+      width: 1%;
+    }
+
+    .prtl {
+      width: 20%;
+    }
+
+    .dtl {
+      width: 15%;
+    }
+
+    .cons {
+      width: 15%;
+    }
+
+    .gst {
+      width: 15%;
+    }
+
+    .t-amt {
+      width: 15%;
+    }
+
+    @media only screen and (max-width: 768px) {
+      font-size: 0.7rem; // Reduce font size for smaller screens
+      th,
+      td {
+        padding: 3px; // Adjust cell padding for smaller screens
+      }
+
+      .sl-no {
+        width: 10%;
+      } // Adjust widths as needed for smaller screens
+      .prtl {
+        width: 25%;
+      }
+      .dtl {
+        width: 10%;
+      }
+      .cons {
+        width: 10%;
+      }
+      .gst {
+        width: 10%;
+      }
+      .t-amt {
+        width: 15%;
+      }
+    }
+  }
+
+  .note {
+    display: flex;
+    width: 100%;
+    font-size: 0.9rem;
+    margin-top: 10px;
+
+    form {
+      display: inline;
+
+      .square-radio {
+        position: relative;
+        padding-right: 30px;
+        /* Adjust as needed */
+        display: inline-block;
+        line-height: 20px;
+        /* Adjust as needed */
+        margin-right: 10px;
+      }
+
+      .square-radio input {
+        position: absolute;
+        opacity: 0;
+      }
+
+      .custom-radio {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #211717;
+        background-color: transparent;
+      }
+
+      .square-radio input:checked + .custom-radio {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .square-radio input:checked + .custom-radio::after {
+        content: "✔";
+        color: black;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+    }
+  }
+
+  .tds {
+    display: flex;
+    font-size: 0.9rem;
+    margin-top: 15px;
+  }
+
+  .tnc-signs {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10rem;
+    font-weight: 500;
+    font-size: 1rem;
+    p {
+      text-decoration: overline;
+      @include respond(phone) {
+        font-size: 8px;
+      }
+    }
+  }
+
+  &::-webkit-scrollbar {
+    display: none; // Chrome, Safari, Opera
+  }
+}

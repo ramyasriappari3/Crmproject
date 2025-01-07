@@ -1,0 +1,19 @@
+.RecieptsCont {
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    .tw-group:hover {
+      background-color:  #F3F5F6;
+      border-radius: 10px;
+    }
+    h3 {
+      color: var(--Font-F1-Title, var(--B1-Tooltip, #3c4049));
+      font-feature-settings: 'clig' off, 'liga' off;
+      font-family: Inter;
+      font-size: 1.2rem;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 24px;
+    }
+  }
+  

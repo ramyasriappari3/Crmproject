@@ -1,0 +1,71 @@
+.notification-container {
+    .notification-icon-container {
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+    }
+
+    .notifications {
+        position: relative;
+        border-radius: 8px;
+        padding: 4px;
+
+        &__list {
+            position: absolute;
+            top: 100%; // Positions the dropdown directly below the icon
+            right: 0;  // Aligns the dropdown to the right side of the icon
+            z-index: 999;
+            box-shadow: 0px 20px 44px rgba(7, 32, 46, 0.14);
+            @extend .primary-background;
+            padding: 1rem;
+            width: 380px;
+            height: 392px;
+            gap: 4px;
+            border-radius: 8px;
+            overflow-y: scroll;
+            transition: all 0.3s ease; // Smooth transition effect
+
+            // Adjustments for mobile screens
+            @include respond(phone) {
+                width: 100vw;   // Full screen width on smaller devices
+                height: 100vh;  // Full screen height for scrolling
+                right: 0;
+                top: 0;
+                border-radius: 0; // Removes border-radius for full-screen display
+            }
+        }
+
+        .time {
+            color: #1480B7;
+        }
+
+        .notification-item {
+            position: relative;
+            padding: 15px;
+            margin: 5px 0;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &.unclicked {
+                background-color: #F9FAFA;
+                color: white;
+            }
+
+            &.clicked {
+                background-color: white;
+                color: black;
+            }
+
+            .blue-dot {
+                position: absolute;
+                top: 5px;
+                right: 10px;
+                width: 10px;
+                height: 10px;
+                background-color: blue;
+                border-radius: 50%;
+            }
+        }
+    }
+}

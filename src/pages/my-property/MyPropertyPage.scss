@@ -1,0 +1,124 @@
+.my-prop-page {
+    .task-cont {
+        margin: 15px 0px;
+        width: 100%;
+        min-height: 15vh;
+        // background-color: aqua;
+        border-radius: 10px;
+        border: 1px solid var(--Outline-04-Separator, #DFE1E7);
+        display: flex;
+        padding: 16px;
+        flex-direction: column;
+        gap: 4px;
+        align-self: stretch;
+
+        .task-up-cont {
+            display: flex;
+            padding: var(--gap-0, 0px);
+            align-items: flex-start;
+            gap: 12px;
+            align-self: stretch;
+
+            .task-left {
+
+                .icon-img {
+                    width: 5rem;
+                }
+            }
+
+            .task-right {
+
+                .task-status {
+                    color: var(--Font-F2-Body, #656C7B);
+
+                    /* Text/T12 - Body 4 */
+                    font-size: 0.8rem;
+                    font-family: Inter;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    /* 18.2px */
+                }
+
+                .task-name {
+                    color: var(--Font-F1-Title, var(--B1-Tooltip, #3C4049));
+
+                    /* Text/T9 Body 1 */
+                    font-family: Inter;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 140%;
+                    /* 19.6px */
+                }
+
+                .task-date {
+                    color: var(--Background-B13-Danger-Default, #CF1322);
+
+                    /* Text/T12 - Body 4 */
+                    font-family: Inter;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 140%;
+                    /* 18.2px */
+                }
+
+                .task-detail {
+                    color: var(--Font-F1-Title, var(--B1-Tooltip, #3C4049));
+
+                    /* Text/T11 - Labels */
+                    font-family: Inter;
+                    font-size: 0.8rem;
+                    font-style: normal;
+                    font-weight: 500;
+                    line-height: 140%;
+                    /* 18.2px */
+                }
+            }
+        }
+
+        .task-down-cont {
+            button {
+                display: flex;
+                padding: 7px 8px;
+                justify-content: center;
+                align-items: center;
+                gap: 8px;
+                border-radius: 8px;
+                color: var(--Font-F1-Title, var(--B1-Tooltip, #3C4049));
+                text-align: center;
+
+                /* Text/T9 Body 1 */
+                font-family: Inter;
+                font-size: 14px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 140%;
+                /* 19.6px */
+                float: right;
+                border: 1px solid var(--Outline-01---Secondary-Hover, #3C4049);
+            }
+        }
+    }
+
+    .view-button {
+        width: 100%;
+        display: flex;
+        padding: 8px 10px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 10px;
+        align-self: stretch;
+        border-radius: 6px;
+        background: rgba(31, 105, 255, 0.11);
+        color: var(--Semantic-S21-Info-lc-Font, #1F69FF);
+        text-align: right;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+}

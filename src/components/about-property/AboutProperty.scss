@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.about-property-cont {
+  width: 100%;
+  min-height: 100vh;
+  font-family: Inter;
+  color: black;
+  display: flex;
+  flex-direction: column;
+
+  .section-titles {
+    font-size: 14px;
+    color: #656c7b;
+    font-weight: 400;
+    line-height: 18px;
+  }
+
+  .property-intro-cont {
+    height: 20%;
+    .read-more-btn {
+      color: rgba(15, 15, 170, 0.993);
+    }
+  }
+
+  .property-feature-cont {
+    height: 60%;
+
+    .property-features {
+      display: flex;
+
+      div {
+        div {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+
+  .property-bank-cont {
+    height: 30%;
+  }
+
+  .notes-cont {
+    background-color: rgba(128, 128, 128, 0.122);
+    padding: 20px;
+    border-radius: 5px;
+
+    .notes-cont ul {
+      list-style-type: disc !important;
+    }
+  }
+}
+
+.floor-plan-hover {
+  position: relative;
+  cursor: pointer;
+}
+
+.floor-plan-hover::after {
+  content: "Click to preview";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #111;
+  font-size: 1rem;
+  font-weight: 600;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.floor-plan-hover:hover::after {
+  opacity: 1;
+}
+
+.floor-plan-hover img {
+  transition: background-color 0.3s;
+}
+
+.control-stylings {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  top: 2.5%;
+  right: 1%;
+}

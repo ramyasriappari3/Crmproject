@@ -1,0 +1,60 @@
+.account-statement {
+  display: flex;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: all 0.3s linear;
+  overflow: auto;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.account-statement .modal-content {
+  font-family: 'Inter', 'Arial Narrow', Arial, sans-serif;
+  font-size: 14px;
+  background: #ffffff;
+  border: 1px solid rgba(56, 64, 87, 0.1);
+  width: 70vw;
+  padding: 3rem 4rem;
+  flex-direction: column;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  overflow-y: auto; /* Allow content to scroll if it's too large */
+}
+
+.sheet-table {
+  .table-heading {
+    color: #111;
+    font-size: larger;
+    font-weight: 600;
+    text-align: center;
+  }
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+}
+.statement-table {
+  table {
+    font-family: Inter, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td {
+    text-align: left;
+    padding: 8px;
+  }
+
+  th {
+    padding: 8px;
+  }
+}

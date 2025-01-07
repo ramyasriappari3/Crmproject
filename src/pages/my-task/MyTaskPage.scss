@@ -1,0 +1,32 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.my-task-cont {
+    border-radius: var(--paddings-gaps-p-4, 16px);
+    background: #FFF;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    flex: 1 0 0;
+    @include respond(phone){
+        padding: 0px;
+    }
+
+}
+
+.search-box {
+    border-radius: 8px;
+    border: 1px solid var(--Outline-L-O4---Separator, #DFE1E7);
+
+
+    img {
+        margin: 0px 5px;
+    }
+
+    input {
+        margin: 10px 2px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+}

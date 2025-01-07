@@ -1,0 +1,16 @@
+@import '/src/assets/styles/abstracts/variables';
+
+.payments-tab-cont {
+  font-family: Inter, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  .head-buttons {
+    display: flex;
+    border: 1px solid #3C4049;
+    color: #25272D;
+    padding: 8px 7px;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+}

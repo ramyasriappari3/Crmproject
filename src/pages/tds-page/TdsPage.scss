@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+.tds-back-button {
+  // border: 2px solid black;
+  // border-radius: 10px;
+  // padding: 8px 23px;
+  display: flex;
+  font-weight: 900;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.tds-page-cont {
+  display: flex;
+  width: 100%;
+
+  .tds-details-cont {
+    border-radius: var(--paddings-gaps-p-4, 16px);
+    background: #fff;
+    box-shadow: 0px 2px 4px 0px rgba(101, 108, 123, 0.15),
+      0px 0px 1px 0px rgba(101, 108, 123, 0.25);
+    display: flex;
+    padding: 28px;
+    flex-direction: column;
+    gap: 16px;
+    flex: 1 0 0;
+    font-family: Inter;
+
+    h3 {
+      color: black;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 28px;
+    }
+
+    p {
+      color: black;
+      font-family: Inter;
+      font-size: 0.9rem;
+    }
+
+    .tds-payment-cont {
+      display: flex;
+      padding: 10px;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 30px;
+      align-self: stretch;
+      border-radius: 10px;
+      border: 1px solid var(--Outline-04-Separator, #dfe1e7);
+      background: var(--background-b-8-panels-cards, #fff);
+
+      .tds-amount {
+        margin-top: 30px;
+        font-weight: 400;
+        margin-bottom: 20px;
+      }
+    }
+
+    .tds-forms-cont {
+      width: 100%;
+      // background-color: blue;
+      button {
+        width: fit-content;
+        display: flex;
+        padding: 7px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        border-radius: 8px;
+        border: 1px solid var(--Outline-01---Secondary-Hover, #3c4049);
+        font-weight: 700;
+        color: black;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

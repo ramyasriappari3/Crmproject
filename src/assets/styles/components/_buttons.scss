@@ -1,0 +1,127 @@
+@import "src/assets/styles/abstracts/variables";
+
+.btn {
+    // @apply tw-border-none tw-px-3 tw-py-2 tw-cursor-pointer focus: tw-outline-none tw-rounded-md;
+    border-radius: 6px;
+    padding: 8px 14px;
+    cursor: pointer;
+
+    // &--orange {
+    //     @apply tw-bg-orange-500 tw-text-white hover: tw-bg-orange-600;
+    // }
+
+    &--md {
+        padding: 12px 14px;
+    }
+
+    &--lg {
+        padding: 18px 48px;
+    }
+
+    &--xl {
+        padding: 20px 48px;
+    }
+
+    &--black {
+        background-color: #241F20;
+        // box-shadow: 0px 3px 0px #0F5F87;
+
+        color: #fff;
+
+        &:hover {
+            filter: brightness(95%);
+        }
+
+        &:disabled {
+            cursor: not-allowed;
+            border: 1px solid #384057;
+            background-color: #fff;
+            box-shadow: none;
+            color: #384057;
+            opacity: 0.45;
+
+            &:hover {
+                filter: none;
+            }
+        }
+    }
+
+    &--sky {
+        background-color: #fff;
+        border-radius: 10px;
+        color: #1480B7;
+
+        font-size: 14px;
+        border-radius: 10px;
+        border: 1px solid #1480B7;
+        font-weight: 700;
+
+        &:disabled {
+            cursor: not-allowed;
+            border: 1px solid #384057;
+            background-color: #fff;
+            box-shadow: none;
+            color: #384057;
+            opacity: 0.45;
+        }
+    }
+
+    &--white-sky {
+        background-color: #fff;
+        border-radius: 10px;
+        color: $color-primary;
+        font-size: 14px;
+        border-radius: 10px;
+        border: 1px solid rgba(0, 131, 179, 0.45);
+        font-weight: 700;
+    }
+
+    &--sm {
+        // width: 5rem;
+        font-size: 12px;
+    }
+
+    &--link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+        color: #1480B7;
+        display: inline-flex;
+
+        svg {
+            margin-right: 10px;
+        }
+    }
+
+    &--delete {
+        background: #FB4444;
+        font-size: 14px;
+        border-radius: 8px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 8px 12px;
+        gap: 10px;
+        color: #fff;
+    }
+
+}
+
+button:disabled {
+    cursor: not-allowed;
+    background-color: rgba($color: rgb(160, 160, 160), $alpha: 0.1);
+    box-shadow: none;
+}
+
+
+/* back buttons */
+.back-btn {
+    background: #FFFFFF;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}

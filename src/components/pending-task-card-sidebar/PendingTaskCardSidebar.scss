@@ -1,0 +1,88 @@
+.task-cont {
+  margin-bottom: 15px;
+  width: 100%;
+  min-height: max-content;
+  border-radius: 10px;
+  border: 1px solid var(--Outline-04-Separator, #dfe1e7);
+  display: flex;
+  padding: 16px;
+  background-color: #ffffff;
+  flex-direction: column;
+  gap: 4px;
+  align-self: stretch;
+
+  .task-up-cont {
+    display: flex;
+    padding: var(--gap-0, 0px);
+    align-items: flex-start;
+    align-self: stretch;
+    .task-right {
+      .task-status {
+        color: var(--Font-F2-Body, #656c7b);
+
+        /* Text/T12 - Body 4 */
+        font-size: 1rem;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 18.2px */
+      }
+
+      .task-name {
+        color: var(--Font-F1-Title, var(--B1-Tooltip, #3c4049));
+
+        /* Text/T9 Body 1 */
+        font-family: Inter;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+        /* 19.6px */
+      }
+
+      .task-date {
+        color: var(--Background-B13-Danger-Default, #cf1322);
+
+        /* Text/T12 - Body 4 */
+        font-family: Inter;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+        /* 18.2px */
+      }
+
+      .task-detail {
+        color: var(--Font-F1-Title, var(--B1-Tooltip, #3c4049));
+
+        /* Text/T11 - Labels */
+        font-family: Inter;
+        font-size: 0.8rem;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 140%;
+        /* 18.2px */
+      }
+    }
+  }
+
+  .task-down-cont {
+    button {
+      display: flex;
+      padding: 7px 8px;
+      justify-content: center;
+      align-items: center;
+      gap: 8px;
+      border-radius: 8px;
+      color: var(--Font-F1-Title, var(--B1-Tooltip, #3c4049));
+      text-align: center;
+      font-family: Inter;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 140%;
+      border: 1px solid var(--Outline-01---Secondary-Hover, #3c4049);
+    }
+  }
+}

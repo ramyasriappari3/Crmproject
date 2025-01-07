@@ -1,0 +1,191 @@
+{
+  "project_favicon": "../app/assets/images/favicon.ico",
+
+  "project_logo_image": "/logo.png",
+
+  "project_marketing_info": [
+    {
+      "project_id": 1,
+      "project_title": "Where Every Sq.ft. Echoes More Joy",
+      "project_description": "Bookings Open",
+      "project_img_url": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/Marketing_logs/image+(2).png",
+      "project_learn_more": "https://www.myhomeconstructions.com/my-home-grava/"
+    },
+
+    {
+      "project_id": 2,
+      "project_title": "Walk on the Beach Edge",
+      "project_description": "4 BHK Ultra Luxury Apartments at Neopolis, Kokapet",
+      "project_img_url": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/Marketing_logs/image+(4).png",
+      "project_learn_more": "https://www.myhomeconstructions.com/my-home-grava/"
+    },
+    {
+      "project_id": 3,
+      "project_title": "4 BHK Ultra Luxury Apartments at Neopolis, Kokapet",
+      "project_description": "Flat Sizes 4365 sq.ft – 8640 sq.ft",
+      "project_img_url": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/Marketing_logs/image+(3).png",
+      "project_learn_more": "https://www.myhomeconstructions.com/my-home-grava/"
+    }
+  ],
+
+  "dashboard_marketing_card_info": [
+    {
+      "project_id": 1,
+      "project_title": "4 BHK Ultra Luxury Apartments at Neopolis, Kokapet",
+      "project_description": "Flat Sizes 4365 sq.ft – 8640 sq.ft",
+      "project_img_url": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/BookingLevelImages/image+(3).png",
+      "project_learn_more": "https://www.myhomeconstructions.com/my-home-grava/"
+    },
+
+    {
+      "project_id": 2,
+      "project_title": "4 BHK Ultra Luxury Apartments at Neopolis, Kokapet",
+      "project_description": "Flat Sizes 4365 sq.ft – 8640 sq.ft",
+      "project_img_url": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/BookingLevelImages/image+(4).png",
+      "project_learn_more": "https://www.myhomeconstructions.com/my-home-grava/"
+    },
+    {
+      "project_id": 3,
+      "project_title": "4 BHK Ultra Luxury Apartments at Neopolis, Kokapet",
+      "project_description": "Flat Sizes 4365 sq.ft – 8640 sq.ft",
+      "project_img_url": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/BookingLevelImages/image+(2).png",
+      "project_learn_more": "https://www.myhomeconstructions.com/my-home-grava/"
+    }
+  ],
+
+  "applicant_relationship_info": [
+    {"id": "S/O", "name": "S/O"},
+    {"id": "D/O", "name": "D/O"},
+    {"id": "W/O", "name": "W/O"},
+    {"id": "H/O", "name": "H/O"}
+  ],
+
+  "occupation_data": [
+    {"id": "Business", "name": "Business"},
+    {"id": "Professional", "name": "Professional"},
+    {"id": "Govt. Service", "name": "Govt. Service"},
+    {"id": "Pvt. Service", "name": "Pvt. Service"},
+    {"id": "Home Maker", "name": "Home Maker"},
+    {"id": "Retired", "name": "Retired"},
+    {"id": "Student", "name": "Student"},
+    {"id": "Other", "name": "Other"}
+  ],
+
+  "title_data": [
+    {"id": null, "name": "--"},
+    {"id": "Mr", "name": "Mr."},
+    {"id": "Mrs", "name": "Mrs."},
+    {"id": "Miss", "name": "Miss"},
+    {"id": "Ms", "name": "Ms."},
+    {"id": "Dr", "name": "Dr."},
+    {"id": "Prof", "name": "Prof."},
+    {"id": "M/S", "name": "M/S."},
+    {"id": "Master", "name": "Master"}
+  ],
+
+  "marital_status_data": [
+    {"id": "Married", "name": "Married"},
+    {"id": "Un-Married", "name": "Un-Married"},
+    {"id": "Civil Partner", "name": "Civil Partner"},
+    {"id": "Divorced", "name": "Divorced"},
+    {"id": "Widowed", "name": "Widowed"}
+  ],
+
+  "indianBanks": [
+    {"id": 1, "name": "State Bank of India (SBI)"},
+    {"id": 2, "name": "HDFC Bank"},
+    {"id": 3, "name": "ICICI Bank"},
+    {"id": 4, "name": "Punjab National Bank (PNB)"},
+    {"id": 5, "name": "Bank of Baroda (BOB)"},
+    {"id": 6, "name": "Canara Bank"},
+    {"id": 7, "name": "Union Bank of India"},
+    {"id": 8, "name": "Axis Bank"},
+    {"id": 9, "name": "Bank of India (BOI)"},
+    {"id": 10, "name": "Indian Bank"},
+    {"id": 11, "name": "IDBI Bank"},
+    {"id": 12, "name": "Kotak Mahindra Bank"},
+    {"id": 13, "name": "IndusInd Bank"},
+    {"id": 14, "name": "Yes Bank"},
+    {"id": 15, "name": "Central Bank of India"},
+    {"id": 16, "name": "Federal Bank"},
+    {"id": 17, "name": "Punjab & Sind Bank"},
+    {"id": 18, "name": "Bank of Maharashtra"},
+    {"id": 19, "name": "South Indian Bank"},
+    {"id": 20, "name": "Karur Vysya Bank"}
+  ],
+
+  "documentNames": [
+    {"name": "Aadhaar", "value": "Aadhaar_number"},
+    {"name": "Applicant Photo", "value": "applicant_photo"},
+    {"name": "Pan", "value": "PAN"},
+    {"name": "Passport", "value": "passport_number"}
+  ],
+
+  "milestoneDueDate": 15,
+
+  "projectBanner": [
+    {
+      "id": 2011,
+      "imgUrl": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/project-banner/Krishe.png"
+    },
+    {
+      "id": 2012,
+      "imgUrl": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/project-banner/Avatar.png"
+    },
+    {
+      "id": 2013,
+      "imgUrl": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/project-banner/Mangala.png"
+    },
+    {
+      "id": 2014,
+      "imgUrl": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/project-banner/Nishada.png"
+    },
+    {
+      "id": 2015,
+      "imgUrl": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/project-banner/Sayuk.png"
+    },
+    {
+      "id": 2016,
+      "imgUrl": "https://real-estate-crm-documents.s3.ap-south-1.amazonaws.com/project-banner/Vihanga.png"
+    }
+  ],
+
+  "indianStates": [
+    {"id": 1, "name": "Andhra Pradesh"},
+    {"id": 2, "name": "Arunachal Pradesh"},
+    {"id": 3, "name": "Assam"},
+    {"id": 4, "name": "Bihar"},
+    {"id": 5, "name": "Chhattisgarh"},
+    {"id": 6, "name": "Goa"},
+    {"id": 7, "name": "Gujarat"},
+    {"id": 8, "name": "Haryana"},
+    {"id": 9, "name": "Himachal Pradesh"},
+    {"id": 10, "name": "Jharkhand"},
+    {"id": 11, "name": "Karnataka"},
+    {"id": 12, "name": "Kerala"},
+    {"id": 13, "name": "Madhya Pradesh"},
+    {"id": 14, "name": "Maharashtra"},
+    {"id": 15, "name": "Manipur"},
+    {"id": 16, "name": "Meghalaya"},
+    {"id": 17, "name": "Mizoram"},
+    {"id": 18, "name": "Nagaland"},
+    {"id": 19, "name": "Odisha"},
+    {"id": 20, "name": "Punjab"},
+    {"id": 21, "name": "Rajasthan"},
+    {"id": 22, "name": "Sikkim"},
+    {"id": 23, "name": "Tamil Nadu"},
+    {"id": 24, "name": "Telangana"},
+    {"id": 25, "name": "Tripura"},
+    {"id": 26, "name": "Uttar Pradesh"},
+    {"id": 27, "name": "Uttarakhand"},
+    {"id": 28, "name": "West Bengal"},
+    {"id": 29, "name": "Andaman and Nicobar Islands"},
+    {"id": 30, "name": "Chandigarh"},
+    {"id": 31, "name": "Dadra and Nagar Haveli and Daman and Diu"},
+    {"id": 32, "name": "Delhi"},
+    {"id": 33, "name": "Jammu and Kashmir"},
+    {"id": 34, "name": "Ladakh"},
+    {"id": 35, "name": "Lakshadweep"},
+    {"id": 36, "name": "Puducherry"}
+  ]
+}

@@ -1,0 +1,18 @@
+.car-parking-success-page {
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    width: 90%;
+    min-height: 100vh; /* Ensure it takes full height of the viewport */
+}
+
+.content-container {
+    width: 100%; /* Use a percentage for responsiveness */
+    max-width: 900px; /* Set a maximum width */
+    padding: 8px; /* Adjust padding as needed */
+    background-color: white; /* Background color for the content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the content area */
+    border-radius: 8px; /* Rounded corners */
+    height: 600px; /* Allow height to adjust based on content */
+    margin: 0; /* Remove margin to prevent shifting */
+}

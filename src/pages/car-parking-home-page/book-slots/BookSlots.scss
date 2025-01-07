@@ -1,0 +1,112 @@
+@import "@Src/assets/styles/abstracts/variables";
+
+.book-slots-page-cont {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    @include respond(phone) {
+        width: 100%;
+    }
+    .section-container {
+        .img-container {
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 1rem;
+            width: 4rem;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .status-incomplete {
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        padding: 4px 12px;
+        background: #1F69FF; /* Blue */
+        box-shadow: 0px 1px 1px 0px rgba(101, 108, 123, 0.15), 0px 0px 1px 0px rgba(101, 108, 123, 0.25);
+    }
+
+    .status-completed {
+        color: #FFF;
+        font-size: 13px;
+        font-weight: 500;
+        border-radius: 6px;
+        padding: 4px 12px;
+        background: #28A745; /* Green */
+        box-shadow: 0px 1px 1px 0px rgba(101, 108, 123, 0.15), 0px 0px 1px 0px rgba(101, 108, 123, 0.25);
+    }
+
+    .border-bot {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+        border-bottom: 1px solid #DFE1E7;
+    }
+
+    .book-now {
+        display: flex;
+        padding: 14px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        align-self: stretch;
+        border-radius: 8px;
+        background: var(--Font-F7-Primary-Default, #241F20);
+        width: 100%;
+        color: #FFF;
+        margin-top: 1rem;
+    }
+
+    // New styles for parking slots
+    .slot-button {
+        width: 100px; /* Fixed width to maintain shape */
+        height: 50px; /* Fixed height for consistency */
+        padding: 0; /* Remove padding to prevent overflow */
+        border: none;
+        border-radius: 4px; /* For rounded corners */
+        cursor: pointer;
+        display: inline-flex; /* Use inline-flex for flexbox alignment */
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        overflow: hidden; /* Prevent overflow */
+        transition: background-color 0.3s, transform 0.1s; /* Smooth transition for color and scale */
+        box-sizing: border-box; /* Include padding in total size */
+
+        &:focus {
+            outline: none; /* Remove default focus outline */
+            transform: scale(1.05); /* Slightly scale up on focus */
+        }
+
+        &:active {
+            transform: scale(0.95); /* Scale down on click */
+        }
+    }
+
+    /* Slot status colors */
+    .light-green-slots {
+        background-color: lightgreen;
+        color: white; /* Ensure text is readable */
+    }
+
+    .red-slots {
+        background-color: red;
+        color: white;
+    }
+
+    .orange-slots {
+        background-color: orange;
+        color: white;
+    }
+
+    .green-slots {
+        background-color: green;
+        color: white;
+    }
+}
+.tw-p-8 {
+    padding: 1rem !important;
+}

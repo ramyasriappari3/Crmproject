@@ -1,0 +1,59 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.page-7-cont {
+    width: 100%;
+    color: #231f20;
+
+    h1 {
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: bolder;
+        font-size: large;
+    }
+
+    .tnc-paragh {
+        width: 100%;
+
+        .line-para {
+            display: flex;
+            font-size: 0.9rem;
+            color: #231f20;
+            margin: 10px 0px;
+        }
+
+        .p-left {
+            width: 5%;
+            margin-right: 8px;
+        }
+
+        .p-right {
+            text-align: justify;
+            width: 95%;
+
+            span {
+                font-weight: 900;
+            }
+
+            ul {
+                list-style-type: disc;
+                margin-left: 20px;
+            }
+
+        }
+    }
+
+    .tnc-signs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        font-weight: 600;
+
+        p {
+            text-decoration: overline;
+
+            @include respond(phone) {
+                font-size: 8px;
+            }
+        }
+    }
+}

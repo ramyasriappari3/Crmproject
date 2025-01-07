@@ -1,0 +1,42 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.invoice-Raised {
+  color: #00bd35;
+}
+
+.invoice-Upcoming {
+  color: #eb9f0c;
+}
+
+.invoice-Future {
+  color: #1f75fe;
+}
+
+@media (max-width: 600px) {
+  .MuiTableCell-root {
+    padding: 4px;
+    font-size: 0.8rem;
+  }
+
+  .MuiTypography-root {
+    font-size: 1rem;
+  }
+
+  .MuiTableRow-root {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .MuiTableCell-root {
+    display: block;
+    text-align: right;
+    border-bottom: none;
+  }
+
+  .MuiTableCell-root::before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}

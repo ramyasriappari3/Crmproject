@@ -1,0 +1,14 @@
+.my-account-cont {
+    background-color: rgb(255, 255, 255);
+    padding: 40px;
+    margin-bottom: 20px;
+    margin-left: 26px;
+    width: 1152px;
+    height: 925px;
+    @media screen and (max-width:1024px) {
+        padding: 0px;
+    }
+
+    border-radius: 20px;
+    color: black;
+}

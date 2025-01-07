@@ -1,0 +1,132 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.page5-cont {
+    width: 100%;
+    color: black;
+
+
+    .flat-details {
+        h3 {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        p{
+            font-size: 18px;
+            line-height: 2rem;
+            word-spacing: 0.2rem;
+        }
+    }
+
+    .API-TEXT {
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .rupee-alignment {
+        text-align: right !important;
+        vertical-align: top;
+    }
+    
+    .consi-details {
+        h3 {
+            font-weight: bold;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        table,
+        td,
+        th {
+            border: 1px solid black;
+
+            th {
+                padding: 5px;
+                text-align: left;
+                font-size: 1rem;
+
+            }
+
+            td {
+                padding: 5px 8px;
+                text-align: left;
+                font-size: 0.8rem;
+
+                li {
+                    list-style-type: none;
+                    width: 100%;
+
+                }
+            }
+            tr td:nth-child(2) {
+                max-width: 30rem;
+            }
+
+            tr td:nth-child(1) {
+                width: 3rem;
+            }
+        }
+    }
+
+    .below_amounts {
+        width: 100%;
+
+        h3 {
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th,
+        td {
+            border: 1px solid black;
+            padding: 5px;
+            font-size: 0.8rem;
+        }
+
+        tr td:nth-child(2) {
+            max-width: 30rem;
+        }
+        tr td:nth-child(1) {
+            width: 3rem;
+        }
+    }
+
+    .reg-stmp-chrg {
+        h3 {
+            text-decoration: underline;
+            margin-top: 20px;
+        }
+    }
+
+    .tnc-signs {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+        font-weight: 500;
+
+        p {
+            text-decoration: overline;
+            @include respond(phone){
+                font-size: 8px;
+            }
+        }
+    }
+
+    .scroll{
+        width: 100%;
+        overflow-x: scroll;
+        &::-webkit-scrollbar {
+            display: none;          // Chrome, Safari, Opera
+        }
+    }
+
+   
+}
+

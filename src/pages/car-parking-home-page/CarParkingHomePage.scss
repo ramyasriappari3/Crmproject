@@ -1,0 +1,30 @@
+@import "@Src/assets/styles/abstracts/variables";
+
+.carparking-modal {
+    display: block;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    -webkit-transition: 0.5s;
+    overflow: auto;
+    transition: all 0.3s linear;
+
+    .modal-content {
+        background: rgba(218, 218, 218, 0.3);
+        border: 1px solid rgba(56, 64, 87, 0.1);
+        float: right;
+        // max-width: 27rem;
+        min-width: 100vw;
+        min-height: 100vh;
+        padding-bottom: 6rem;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+
+}

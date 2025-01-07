@@ -1,0 +1,24 @@
+.no-payment-proofs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+
+  .no-payment-proofs-image {
+    max-width: 545px;
+    margin-bottom: 1rem;
+  }
+  .no-payment-proofs-text {
+    font-size: 1.2em;
+    color: #656c7b;
+  }
+  .amount-row {
+    background-color: #d4edda; /* Light green for reconciled rows */
+  }
+
+  .row-unreconciled {
+    background-color: #f8d7da; /* Light red for unreconciled rows */
+  }
+}

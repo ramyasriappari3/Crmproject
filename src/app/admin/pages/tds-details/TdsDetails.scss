@@ -1,0 +1,67 @@
+.table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: #212529;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.table tbody + tbody {
+  border-top: 2px solid #dee2e6;
+}
+.table td{
+  padding-left: 7rem !important;
+ 
+}
+.no-payment-proofs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  text-align: center;
+  position: relative;
+  top: 38px;
+}
+
+.no-payment-proofs-image {
+  max-width: 378px;
+  margin-bottom: 1rem;
+}
+
+.no-payment-proofs-text {
+  font-size: 1.2em;
+  color: #656C7B;
+}
+.list-item-hover:hover {
+  background-color: #F3F5F6 !important;
+  cursor: pointer;
+  border-radius: 0.5rem !important;
+}
+.xyz{
+  width: 1144px !important;
+}
+.list-item-hover:hover .hidden-icons {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hidden-icons {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s linear;
+}
+.css-9mgopn-MuiDivider-root {
+border-bottom: none !important;
+}

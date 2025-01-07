@@ -1,0 +1,170 @@
+// .profile{
+//     display: flex !important;
+//     justify-content: center !important;
+// }
+.tab-header {
+    width: 100% !important;
+    gap : 3px !important;
+    background-color:  #f3f5f6 !important;
+        // background-color: red;
+    display: flex;
+    // gap: 0.75rem;
+    justify-content: space-between;
+    display: flex;
+    // width: 803px;
+    // margin-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid var(--Outline-02-Secondary-Default, #656C7B);
+    // overflow-x: scroll;
+    -ms-overflow-style: none; // IE and Edge
+    scrollbar-width: none; // Firefox
+
+    &::-webkit-scrollbar {
+        display: none; // Chrome, Safari, Operas ,
+    }
+}
+.tab-button {
+    // background-color: blue;
+    border: none;
+    cursor: pointer;
+    padding: 10px 18px;
+    font-size: 1rem;
+    width: 26%;
+    min-width: fit-content;
+    // width: 16.2%;
+    border-radius: 8px 8px 0px 0px;
+    border-top: 1px solid var(--Outline-03-Secondary-Default, #C0C4CE);
+    border-right: 1px solid var(--Outline-03-Secondary-Default, #C0C4CE);
+    border-left: 1px solid var(--Outline-03-Secondary-Default, #C0C4CE);
+    background: var(--background-b-8-panels-cards, #FFF);
+    position: relative;
+
+}
+
+.active {
+    font-weight: bold;
+    color: black;
+    border-radius: 8px 8px 0px 0px;
+    border-top: 1px solid var(--Outline-02-Secondary-Default, #656C7B);
+    border-right: 1px solid var(--Outline-02-Secondary-Default, #656C7B);
+    border-left: 1px solid var(--Outline-02-Secondary-Default, #656C7B);
+    border-bottom: none !important;
+    background: var(--background-b-8-panels-cards, #FFF);
+    // z-index: ;
+}
+
+.active::after {
+    content: "";
+    width: 100%;
+    height: 4px;
+    position: absolute;
+    z-index: 10;
+    left: 0px;
+    bottom: -2px;
+    background-color: rgb(255, 255, 255);
+
+    .active::before {
+        content: "";
+        width: 100%;
+        height: 4px;
+        position: absolute;
+        z-index: 10;
+        left: 0px;
+        bottom: -2px;
+        background-color: rgb(255, 255, 255);
+    }
+}
+.details{
+    color: #1F69FF;
+    text-decoration: underline;
+}
+.lite{
+    color: #656C7B;
+   
+}
+.managecar{
+    color: #1F69FF;
+    cursor: pointer;
+}
+.raised{
+    color: #00BD35;
+}
+.upcoming{
+    color: #EB9F0C;
+}
+
+.stepstyle{
+    font-weight: bold !important;
+    color: black;
+}
+.manager_header{
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+.second_Grid{
+    padding-top: 0px !important;
+    background: white;
+    // overflow-y: scroll;
+}
+
+.square-radio {
+  position: relative;
+  padding-right: 30px;
+  /* Adjust as needed */
+  display: inline-block;
+  line-height: 20px;
+  /* Adjust as needed */
+  margin-right: 10px;
+}
+
+.square-radio input {
+  position: absolute;
+  opacity: 0;
+}
+
+.custom-radio {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #211717;
+  background-color: transparent;
+}
+
+.square-radio input:checked + .custom-radio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.square-radio input:checked + .custom-radio::after {
+  content: "✔";
+  color: black;
+  font-size: 30px;
+}
+.css-a5rdam-MuiGrid-root>.MuiGrid-item , .css-tuxzvu > .MuiGrid-item {
+    padding-left: 0px !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    margin-right: 0px !important;
+}
+.css-i4bv87-MuiSvgIcon-root, .css-vubbuv {
+    margin-right: 0px !important;
+}
+.tab-button {
+    border-bottom: 2px solid black;
+    padding: 10px 20px;
+    background: none;
+    cursor: pointer;
+  }
+  
+  .tab-button.active {
+    border-bottom: none;
+    font-weight: bold; /* Optional: Make the active tab text bold */
+  }
+  

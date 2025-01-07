@@ -1,0 +1,71 @@
+@import "@Src/assets/styles/abstracts/variables";
+
+.basements-slot-page {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem 4rem;
+
+    @media screen and (max-width:1024px) {
+        padding: 0px;
+    }
+
+    display: flex;
+    gap: 2rem;
+    min-height: 100vh;
+
+    .left-section-tabs {
+        @media screen and (max-width:1024px) {
+            display: none;
+        }
+
+        .left-sidebar {
+            position: fixed;
+
+            .greencircle {
+                height: 32px;
+                width: 32px;
+                border-radius: 50%;
+                background-color: #00BD35;
+                color: #FFF;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .graycircle {
+                height: 32px;
+                width: 32px;
+                border-radius: 50%;
+                background-color: #C0C4CE;
+                color: #3C4049;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .greenline {
+                height: 12px;
+                width: 1px;
+                border: 1px solid #00BD35;
+                margin-left: 1rem;
+            }
+
+            .grayline {
+                height: auto;
+                border: 1px solid #C0C4CE;
+            }
+
+            .cols {
+                color: #656C7B;
+            }
+        }
+    }
+}
+
+.application-footer {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999;
+    background-color: #FFF;
+}

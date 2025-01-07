@@ -1,0 +1,196 @@
+@import "/src/assets/styles/abstracts/variables";
+
+.review-application-pages {
+    .page {
+        background: #FFFFFF;
+        border: 1px solid rgba(17, 13, 63, 0.08);
+        padding: 3rem;
+        margin-top: 1.5rem;
+        border-radius: 4px;
+        box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.11);
+
+        @media only screen and (max-width: 48.125em) {
+            border-radius: var(--paddings-gaps-p-4, 16px);
+            background: #FFF;
+            box-shadow: 0px 2px 4px 0px rgba(101, 108, 123, 0.15), 0px 0px 1px 0px rgba(101, 108, 123, 0.25);
+            padding: 1rem;
+        }
+
+        .page-num{
+            margin-top: 40px;
+            font-weight: bold;
+            width: 100%;
+            margin-bottom: 0px;
+            text-align: center;
+        }
+    }
+
+    .page-1 {
+        .logo {
+            position: relative;
+            .logo-home {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: 25rem;
+                margin-bottom: 2rem;
+
+                @include respond(phone) {
+                    width: 20rem;
+                }
+
+
+                img {
+                    width: 100%;
+                }
+            }
+
+            .tech-logo {
+                display: block;
+                width: 90px;
+                position: absolute;
+                bottom: 35vh;
+                right: 0px;
+
+                @include respond(phone) {
+                    width: 64px;
+                    display: block;
+                    position: absolute;
+                    bottom: 30vh;
+                    right: 0px;
+                }
+
+                img {
+                    width: 100%;
+                }
+            }
+
+        }
+
+        .review-info-section {
+            display: flex;
+
+            .review-left-section {
+                width: 60%;
+            }
+
+            .right-section {
+                width: 40%;
+            }
+
+            .left-text {
+                display: flex;
+                align-items: center;
+                margin-top: 6px;
+                // gap: 2rem;
+                margin-bottom: 6px;
+            }
+
+            .right-text {
+                display: flex;
+                gap: 1rem;
+            }
+
+            .light-text {
+                color: #000;
+                font-size: 14px;
+
+                @include respond(phone) {
+                    font-size: 11px;
+                }
+
+                width: 50%;
+            }
+
+            .dark-text {
+                color: #000;
+                font-size: 14px;
+                font-weight: 700;
+                margin-left: 8px;
+
+                @include respond(phone) {
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .sub-image {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            width: 90% !important;
+
+            @include respond(phone) {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .sub {
+                width: 50%;
+
+                p {
+                    max-width: 18rem;
+                    color: #000;
+                }
+            }
+
+            .image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                gap: 2rem;
+                flex-wrap: wrap;
+                width: 50%;
+                border-radius: 6px;
+
+                .images {
+                    width: 8rem;
+                    height: 10rem;
+
+                    img {
+                        width: 100%;
+                        height: 100%;
+                        border-radius: 6px;
+                    }
+                }
+            }
+        }
+
+        .agreement-sec {
+            color: #000;
+            line-height: 180%;
+            width: 95%;
+            margin-top: 2rem;
+
+            span {
+                font-weight: 700;
+                text-decoration: underline;
+            }
+        }
+
+        .applicant-sig {
+            color: #000;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+
+            .apl-img {
+                width: 90px;
+                margin-bottom: 4px;
+
+
+                img {
+                    width: 100%;
+                    margin-left: 2rem;
+                }
+            }
+        }
+    }
+
+    .page-num {
+        text-align: center;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+}

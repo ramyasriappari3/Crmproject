@@ -1,0 +1,187 @@
+{
+  "Advertisements": {
+    "SUPPORTED_FILE_TYPES": [
+      "image/jpeg",
+      "image/png",
+      "image/jpg",
+      "application/pdf",
+      "image/webp"
+    ],
+    "minimumSize": 1024,
+    "maximumSize": 2048,
+    "supportedFormat": "jpeg, jpg, png, pdf, webp"
+  },
+  "MarketingImages": {
+    "SUPPORTED_FILE_TYPES": [
+      "image/jpeg",
+      "image/png",
+      "image/jpg",
+      "application/pdf",
+      "image/webp"
+    ],
+    "minimumSize": 1024,
+    "maximumSize": 2048,
+    "supportedFormat": "jpeg, jpg, png, pdf, webp"
+  },
+  "ProjectImages": {
+    "SUPPORTED_FILE_TYPES": [
+      "image/jpeg",
+      "image/png",
+      "image/jpg",
+      "application/pdf",
+      "image/webp"
+    ],
+    "minimumSize": 20,
+    "maximumSize": 2048,
+    "supportedFormat": "jpeg, jpg, png, pdf, webp"
+  },
+  "ProjectLogs": {
+    "SUPPORTED_FILE_TYPES": [
+      "image/jpeg",
+      "image/png",
+      "image/jpg",
+      "application/pdf",
+      "image/webp"
+    ],
+    "minimumSize": 1024,
+    "maximumSize": 2048,
+    "supportedFormat": "jpeg, jpg, png, pdf, webp"
+  },
+  "ProjectBanner": {
+    "SUPPORTED_FILE_TYPES": [
+      "image/jpeg",
+      "image/png",
+      "image/jpg",
+      "application/pdf",
+      "image/webp"
+    ],
+    "minimumSize": 1024,
+    "maximumSize": 2048,
+    "supportedFormat": "jpeg, jpg, png, pdf, webp"
+  },
+  "ConstructionImages": {
+    "SUPPORTED_FILE_TYPES": [
+      "image/jpeg",
+      "image/png",
+      "image/jpg",
+      "application/pdf",
+      "image/webp"
+    ],
+    "minimumSize": 1024,
+    "maximumSize": 2048,
+    "supportedFormat": "jpeg, jpg, png, pdf, webp"
+  },
+  "image_sequence_array": [
+    {
+      "image_sequence": 1,
+      "image_type": "main image"
+    },
+    {
+      "image_sequence": 2,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 3,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 4,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 5,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 6,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 7,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 8,
+      "image_type": "other images"
+    },
+    {
+      "image_sequence": 9,
+      "image_type": "booking detail card image"
+    },
+    {
+      "image_sequence": 10,
+      "image_type": "property video"
+    },
+    {
+      "image_sequence": 11,
+      "image_type": "construction video"
+    },
+    {
+      "image_sequence": 12,
+      "image_type": "other images"
+    }
+  ],
+  "CustomerDocuments": {
+    "documentTypes": {
+      "applicant_photo": {
+        "SUPPORTED_FILE_TYPES": [
+          "image/jpeg",
+          "image/png",
+          "image/jpg",
+          "image/webp"
+        ],
+        "supportedFormat": "JPG,JPEG,PNG",
+        "minSize": "20-KB",
+        "maxSize": "2-MB"
+      },
+      "Aadhaar_number": {
+        "SUPPORTED_FILE_TYPES": [
+          "image/jpeg",
+          "image/png",
+          "image/jpg",
+          "application/pdf",
+          "image/webp"
+        ],
+        "supportedFormat": "JPG,JPEG,PNG,PDF",
+        "minSize": "20-KB",
+        "maxSize": "2-MB"
+      },
+      "PAN": {
+        "SUPPORTED_FILE_TYPES": [
+          "image/jpeg",
+          "image/png",
+          "image/jpg",
+          "application/pdf",
+          "image/webp"
+        ],
+        "supportedFormat": "JPG,JPEG,PNG,PDF",
+        "minSize": "20-KB",
+        "maxSize": "2-MB"
+      },
+      "passport_number": {
+        "SUPPORTED_FILE_TYPES": [
+          "image/jpeg",
+          "image/png",
+          "image/jpg",
+          "application/pdf",
+          "image/webp"
+        ],
+        "supportedFormat": "JPG,JPEG,PNG,PDF",
+        "minSize": "20-KB",
+        "maxSize": "2-MB"
+      },
+      "bank_account_proof": {
+        "SUPPORTED_FILE_TYPES": [
+          "image/jpeg",
+          "image/png",
+          "image/jpg",
+          "application/pdf",
+          "image/webp"
+        ],
+        "supportedFormat": "JPG,JPEG,PNG,PDF",
+        "minSize": "20-KB",
+        "maxSize": "2-MB"
+      }
+    }
+  }
+}
